@@ -9,11 +9,6 @@ from django.test.utils import get_runner
 
 import fallball
 
-import sys
-print(sys.path)
-
-import ipdb; ipdb.set_trace()
-
 # As parent directory has also 'fallball' name it needs to specify the package explicitly:
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'fallball.settings'
