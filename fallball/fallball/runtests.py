@@ -12,7 +12,7 @@ import fallball
 import sys
 print(sys.path)
 
-
+import ipdb; ipdb.set_trace()
 
 # As parent directory has also 'fallball' name it needs to specify the package explicitly:
 
