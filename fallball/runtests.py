@@ -21,7 +21,7 @@ if __name__ is not '__main__':
     reload(fallball)
     print(sys.path)
 
-os.environ['DJANGO_SETTINGS_MODULE'] = 'fallball.fallball.settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'fallball.settings'
 django.setup()
 
 TestRunner = get_runner(settings)
