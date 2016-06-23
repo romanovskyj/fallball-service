@@ -22,7 +22,7 @@ setup(
     author='romanovskyj',
     author_email='eromanovskyj@odin.com',
     packages=['fallball'],
-    test_suite="fallball.fallballapp.runtests",
+    test_suite="fallballapp.runtests",
     url='http://fallball.io',
     license='Apache License',
     description='Dummy file sharing service available by REST api.',
