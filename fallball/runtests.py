@@ -15,10 +15,11 @@ print(sys.path)
 
 # As parent directory has also 'fallball' name it needs to specify the package explicitly:
 if __name__ is not '__main__':
-	print("I am here")
+    print("I am here")
     current_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.insert(0, os.path.join(current_path, 'fallball'))
     reload(fallball)
+    print(sys.path)
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'fallball.fallball.settings'
 django.setup()
