@@ -19,7 +19,7 @@ if __name__ is not '__main__':
     current_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
     sys.path.insert(0, os.path.join(current_path, 'fallball'))
     reload(fallball)
-    print(sys.path)
+    print(fallball.settings)
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'fallball.settings'
 django.setup()
